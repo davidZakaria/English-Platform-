@@ -189,15 +189,29 @@ export default function LandingPage() {
                 {/* Profile Section */}
                 <div className="text-center mb-8">
                   <div className="w-40 h-40 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 p-1 shadow-xl">
-                    <div className="w-full h-full bg-white rounded-full flex items-center justify-center">
-                      <span className="text-6xl font-bold bg-gradient-to-br from-blue-600 to-purple-600 bg-clip-text text-transparent">GY</span>
+                    <div className="w-full h-full bg-white rounded-full overflow-hidden flex items-center justify-center">
+                      <img 
+                        src="/teacher-photo.jpg" 
+                        alt="Mrs. Georgette Youssef"
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          e.target.style.display = 'none';
+                          e.target.nextElementSibling.style.display = 'flex';
+                        }}
+                      />
+                      <span 
+                        className="text-6xl font-bold bg-gradient-to-br from-blue-600 to-purple-600 bg-clip-text text-transparent hidden"
+                        style={{display: 'none'}}
+                      >
+                        GY
+                      </span>
                     </div>
                   </div>
                   <h3 className="text-3xl font-bold text-gray-900 mb-2">
                     {language === 'en' ? 'Mrs. Georgette Youssef' : 'الأستاذة جورجيت يوسف'}
                   </h3>
                   <p className="text-lg text-purple-600 font-semibold mb-1">
-                    {language === 'en' ? 'Senior English Teacher' : 'معلمة لغة إنجليزية أولى'}
+                    {language === 'en' ? 'English Supervisor Teacher' : 'مشرفة اللغة الإنجليزية'}
                   </p>
                   <p className="text-gray-600">
                     {language === 'en' ? 'Saint Fatima Language School' : 'مدرسة سانت فاطيما للغات'}
@@ -469,14 +483,30 @@ export default function LandingPage() {
               viewport={{ once: true }}
               className="bg-white rounded-2xl p-8 shadow-lg"
             >
-              <div className="w-32 h-32 bg-gradient-to-br from-primary-600 to-purple-600 rounded-full flex items-center justify-center text-white text-5xl font-bold mb-6 mx-auto shadow-xl">
-                GY
+              <div className="w-32 h-32 bg-gradient-to-br from-primary-600 to-purple-600 rounded-full p-1 mb-6 mx-auto shadow-xl">
+                <div className="w-full h-full bg-white rounded-full overflow-hidden flex items-center justify-center">
+                  <img 
+                    src="/teacher-photo.jpg" 
+                    alt="Mrs. Georgette Youssef"
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      e.target.style.display = 'none';
+                      e.target.nextElementSibling.style.display = 'flex';
+                    }}
+                  />
+                  <span 
+                    className="text-5xl font-bold text-white hidden"
+                    style={{display: 'none'}}
+                  >
+                    GY
+                  </span>
+                </div>
               </div>
               <h3 className="text-3xl font-bold text-gray-900 text-center mb-2">
                 {language === 'en' ? 'Mrs. Georgette Youssef' : 'الأستاذة جورجيت يوسف'}
               </h3>
               <p className="text-primary-600 text-center font-semibold mb-4">
-                {language === 'en' ? 'Senior English Language Teacher' : 'معلمة لغة إنجليزية أولى'}
+                {language === 'en' ? 'English Supervisor Teacher' : 'مشرفة اللغة الإنجليزية'}
               </p>
             </motion.div>
 

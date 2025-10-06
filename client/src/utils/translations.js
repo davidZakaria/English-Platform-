@@ -32,7 +32,7 @@ export const translations = {
     
     // Landing Page
     landingTitle: 'Mrs. Georgette Youssef',
-    landingSubtitle: 'English Teacher | Saint Fatima Language School | 20+ Years Experience',
+    landingSubtitle: 'English Supervisor Teacher | Saint Fatima Language School | 20+ Years Experience',
     landingDesc: 'Welcome to my English learning platform! With over 20 years of teaching excellence at Saint Fatima Language School, I provide comprehensive English education through interactive lessons, exams, and personalized feedback for secondary school students.',
     getStarted: 'Get Started',
     features: 'Features',
@@ -157,7 +157,7 @@ export const translations = {
     
     // Landing Page
     landingTitle: 'الأستاذة جورجيت يوسف',
-    landingSubtitle: 'معلمة اللغة الإنجليزية | مدرسة سانت فاطيما للغات | خبرة +20 عاماً',
+    landingSubtitle: 'مشرفة اللغة الإنجليزية | مدرسة سانت فاطيما للغات | خبرة +20 عاماً',
     landingDesc: 'مرحباً بكم في منصتي التعليمية! مع أكثر من 20 عاماً من التميز في التدريس بمدرسة سانت فاطيما للغات، أقدم تعليماً شاملاً للغة الإنجليزية من خلال دروس تفاعلية وامتحانات وملاحظات شخصية لطلاب المرحلة الثانوية.',
     getStarted: 'ابدأ الآن',
     features: 'المميزات',
