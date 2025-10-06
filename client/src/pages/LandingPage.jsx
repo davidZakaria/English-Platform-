@@ -115,7 +115,7 @@ export default function LandingPage() {
               >
                 <FiStar className="w-4 h-4 text-yellow-500 fill-current" />
                 <span className="text-sm font-semibold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  {language === 'en' ? '20+ Years of Excellence' : 'خبرة تفوق 20 عاماً'}
+                  {language === 'en' ? '30 Years of Excellence' : '30 عاماً من التميز'}
                 </span>
               </motion.div>
 
@@ -139,20 +139,20 @@ export default function LandingPage() {
 
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                 {language === 'en' 
-                  ? 'Experience world-class English education from a distinguished teacher at Saint Fatima Language School. Transform your language skills with personalized guidance and proven methods.'
-                  : 'اختبر تعليم اللغة الإنجليزية عالمي المستوى من معلمة متميزة في مدرسة سانت فاطيما للغات. حوّل مهاراتك اللغوية مع التوجيه الشخصي والأساليب المثبتة.'
+                  ? 'Experience world-class English education from a distinguished teacher with 30 years of excellence at Saint Fatima Language School. Join over 3,200 successful students who transformed their English skills with proven methods.'
+                  : 'اختبر تعليم اللغة الإنجليزية عالمي المستوى من معلمة متميزة مع 30 عاماً من التميز في مدرسة سانت فاطيما للغات. انضم إلى أكثر من 3,200 طالب ناجح حولوا مهاراتهم في اللغة الإنجليزية بأساليب مثبتة.'
                 }
               </p>
 
               {/* Stats */}
               <div className="flex flex-wrap gap-8 mb-10">
                 <div>
-                  <div className="text-4xl font-bold text-gray-900">20+</div>
+                  <div className="text-4xl font-bold text-gray-900">30</div>
                   <div className="text-sm text-gray-600">{language === 'en' ? 'Years Experience' : 'عاماً خبرة'}</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-gray-900">500+</div>
-                  <div className="text-sm text-gray-600">{language === 'en' ? 'Successful Students' : 'طالب متفوق'}</div>
+                  <div className="text-4xl font-bold text-gray-900">3,200+</div>
+                  <div className="text-sm text-gray-600">{language === 'en' ? 'Students Mentored' : 'طالب متفوق'}</div>
                 </div>
                 <div>
                   <div className="text-4xl font-bold text-gray-900">98%</div>
@@ -221,10 +221,10 @@ export default function LandingPage() {
                 {/* Achievements */}
                 <div className="space-y-4">
                   {[
-                    { icon: FiAward, text: language === 'en' ? 'Award-Winning Educator' : 'معلمة حائزة على جوائز', color: 'text-yellow-500' },
-                    { icon: FiUsers, text: language === 'en' ? '500+ Students Mentored' : '+500 طالب تم تدريبهم', color: 'text-blue-500' },
-                    { icon: FiTarget, text: language === 'en' ? 'Specialized in Secondary Ed' : 'متخصصة في المرحلة الثانوية', color: 'text-purple-500' },
-                    { icon: FiHeart, text: language === 'en' ? 'Passionate About Teaching' : 'شغوفة بالتدريس', color: 'text-pink-500' },
+                    { icon: FiAward, text: language === 'en' ? '30 Years Excellence' : '30 عاماً من التميز', color: 'text-yellow-500' },
+                    { icon: FiUsers, text: language === 'en' ? '3,200+ Students Mentored' : '+3,200 طالب تم تدريبهم', color: 'text-blue-500' },
+                    { icon: FiTarget, text: language === 'en' ? 'English Supervisor' : 'مشرفة اللغة الإنجليزية', color: 'text-purple-500' },
+                    { icon: FiHeart, text: language === 'en' ? 'Passionate Educator' : 'معلمة شغوفة', color: 'text-pink-500' },
                   ].map((item, index) => (
                     <motion.div
                       key={index}
@@ -270,8 +270,8 @@ export default function LandingPage() {
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               {language === 'en'
-                ? 'Experience the difference that two decades of teaching excellence makes'
-                : 'اختبر الفرق الذي يصنعه عقدان من التميز في التدريس'
+                ? 'Experience the difference that three decades of teaching excellence makes'
+                : 'اختبر الفرق الذي يصنعه ثلاثة عقود من التميز في التدريس'
               }
             </p>
           </motion.div>
@@ -282,8 +282,8 @@ export default function LandingPage() {
                 number: '01',
                 title: language === 'en' ? 'Proven Track Record' : 'سجل حافل مثبت',
                 desc: language === 'en' 
-                  ? '20+ years of experience with 500+ successful students who achieved excellence in English language skills.'
-                  : 'أكثر من 20 عاماً من الخبرة مع أكثر من 500 طالب ناجح حققوا التميز في مهارات اللغة الإنجليزية.',
+                  ? '30 years of distinguished experience with over 3,200 successful students who achieved excellence in English language skills.'
+                  : '30 عاماً من الخبرة المتميزة مع أكثر من 3,200 طالب ناجح حققوا التميز في مهارات اللغة الإنجليزية.',
                 icon: FiTrendingUp
               },
               {
@@ -378,8 +378,8 @@ export default function LandingPage() {
                 name: language === 'en' ? 'Omar Khalil' : 'عمر خليل',
                 role: language === 'en' ? 'Secondary Student' : 'طالب ثانوي',
                 text: language === 'en'
-                  ? 'Her 20+ years of experience really shows. Best English teacher I\'ve ever had at Saint Fatima!'
-                  : 'خبرتها التي تفوق 20 عاماً واضحة حقاً. أفضل معلمة لغة إنجليزية في سانت فاطيما!',
+                  ? 'Her 30 years of experience really shows. Best English teacher I\'ve ever had at Saint Fatima!'
+                  : 'خبرتها التي تفوق 30 عاماً واضحة حقاً. أفضل معلمة لغة إنجليزية في سانت فاطيما!',
                 rating: 5
               }
             ].map((testimonial, index) => (
@@ -600,13 +600,13 @@ export default function LandingPage() {
               <div className="flex items-center gap-2">
                 <FiAward className="w-6 h-6 text-yellow-500" />
                 <span className="text-gray-700 font-semibold">
-                  {language === 'en' ? '20+ Years Excellence' : 'خبرة +20 عاماً'}
+                  {language === 'en' ? '30 Years Excellence' : '30 عاماً من التميز'}
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <FiUsers className="w-6 h-6 text-blue-500" />
                 <span className="text-gray-700 font-semibold">
-                  {language === 'en' ? '500+ Students' : '+500 طالب'}
+                  {language === 'en' ? '3,200+ Students' : '+3,200 طالب'}
                 </span>
               </div>
               <div className="flex items-center gap-2">
@@ -641,8 +641,8 @@ export default function LandingPage() {
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
                 {language === 'en'
-                  ? 'With over 20 years of teaching excellence at Saint Fatima Language School, providing world-class English education to secondary school students.'
-                  : 'مع أكثر من 20 عاماً من التميز في التدريس في مدرسة سانت فاطيما للغات، نقدم تعليماً عالمي المستوى في اللغة الإنجليزية لطلاب المرحلة الثانوية.'
+                  ? 'With 30 years of teaching excellence at Saint Fatima Language School, providing world-class English education to over 3,200 secondary school students.'
+                  : 'مع 30 عاماً من التميز في التدريس في مدرسة سانت فاطيما للغات، نقدم تعليماً عالمي المستوى لأكثر من 3,200 طالب في المرحلة الثانوية.'
                 }
               </p>
               
@@ -650,11 +650,11 @@ export default function LandingPage() {
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center gap-2 px-4 py-2 bg-white/10 rounded-lg backdrop-blur-sm">
                   <FiAward className="w-5 h-5 text-yellow-400" />
-                  <span className="text-sm font-semibold">20+ Years</span>
+                  <span className="text-sm font-semibold">30 Years</span>
                 </div>
                 <div className="flex items-center gap-2 px-4 py-2 bg-white/10 rounded-lg backdrop-blur-sm">
                   <FiUsers className="w-5 h-5 text-blue-400" />
-                  <span className="text-sm font-semibold">500+ Students</span>
+                  <span className="text-sm font-semibold">3,200+ Students</span>
                 </div>
                 <div className="flex items-center gap-2 px-4 py-2 bg-white/10 rounded-lg backdrop-blur-sm">
                   <FiStar className="w-5 h-5 text-purple-400 fill-current" />
@@ -703,12 +703,12 @@ export default function LandingPage() {
                   <span>{language === 'en' ? 'Saint Fatima Language School' : 'مدرسة سانت فاطيما للغات'}</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <FiGlobe className="w-5 h-5 mt-1 text-blue-400" />
-                  <span>{language === 'en' ? 'Secondary Education' : 'التعليم الثانوي'}</span>
+                  <FiAward className="w-5 h-5 mt-1 text-yellow-400" />
+                  <span>{language === 'en' ? '30 Years Experience' : '30 عاماً خبرة'}</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <FiAward className="w-5 h-5 mt-1 text-yellow-400" />
-                  <span>{language === 'en' ? 'Award-Winning Teacher' : 'معلمة حائزة على جوائز'}</span>
+                  <FiUsers className="w-5 h-5 mt-1 text-blue-400" />
+                  <span>{language === 'en' ? '3,200+ Students Mentored' : '+3,200 طالب تم تدريبهم'}</span>
                 </li>
               </ul>
             </div>
