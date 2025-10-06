@@ -31,9 +31,9 @@ export const translations = {
     student: 'Student',
     
     // Landing Page
-    landingTitle: 'English Teacher Platform',
-    landingSubtitle: 'Comprehensive Learning Management System for Secondary School',
-    landingDesc: 'Create exams, manage content, track progress, and engage students with our all-in-one platform designed for English teachers in Egypt.',
+    landingTitle: 'Ms. Georgette Youssef',
+    landingSubtitle: 'English Teacher | Saint Fatima Language School | 20+ Years Experience',
+    landingDesc: 'Welcome to my English learning platform! With over 20 years of teaching excellence at Saint Fatima Language School, I provide comprehensive English education through interactive lessons, exams, and personalized feedback for secondary school students.',
     getStarted: 'Get Started',
     features: 'Features',
     aboutUs: 'About Us',
@@ -156,9 +156,9 @@ export const translations = {
     student: 'طالب',
     
     // Landing Page
-    landingTitle: 'منصة معلم اللغة الإنجليزية',
-    landingSubtitle: 'نظام إدارة التعلم الشامل للمرحلة الثانوية',
-    landingDesc: 'إنشاء الامتحانات، إدارة المحتوى، تتبع التقدم، وتفاعل مع الطلاب من خلال منصتنا المتكاملة المصممة لمعلمي اللغة الإنجليزية في مصر.',
+    landingTitle: 'الأستاذة جورجيت يوسف',
+    landingSubtitle: 'معلمة اللغة الإنجليزية | مدرسة سانت فاطيما للغات | خبرة +20 عاماً',
+    landingDesc: 'مرحباً بكم في منصتي التعليمية! مع أكثر من 20 عاماً من التميز في التدريس بمدرسة سانت فاطيما للغات، أقدم تعليماً شاملاً للغة الإنجليزية من خلال دروس تفاعلية وامتحانات وملاحظات شخصية لطلاب المرحلة الثانوية.',
     getStarted: 'ابدأ الآن',
     features: 'المميزات',
     aboutUs: 'من نحن',
