@@ -27,7 +27,7 @@ export default function Layout({ children, navigation }) {
               <Link to={`/${user?.role}`} className="flex items-center">
                 <FiBook className="w-8 h-8 text-primary-600" />
                 <span className="ml-2 text-xl font-bold text-gray-900">
-                  {language === 'en' ? 'Ms. Georgette Youssef' : 'الأستاذة جورجيت يوسف'}
+                  {language === 'en' ? 'Mrs. Georgette Youssef' : 'الأستاذة جورجيت يوسف'}
                 </span>
               </Link>
             </div>

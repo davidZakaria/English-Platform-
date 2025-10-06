@@ -31,7 +31,7 @@ export const translations = {
     student: 'Student',
     
     // Landing Page
-    landingTitle: 'Ms. Georgette Youssef',
+    landingTitle: 'Mrs. Georgette Youssef',
     landingSubtitle: 'English Teacher | Saint Fatima Language School | 20+ Years Experience',
     landingDesc: 'Welcome to my English learning platform! With over 20 years of teaching excellence at Saint Fatima Language School, I provide comprehensive English education through interactive lessons, exams, and personalized feedback for secondary school students.',
     getStarted: 'Get Started',

@@ -1,12 +1,12 @@
-# Ms. Georgette Youssef - English Learning Platform 🎓
+# Mrs. Georgette Youssef - English Learning Platform 🎓
 
 **Saint Fatima Language School | 20+ Years of Excellence in English Education**
 
-A comprehensive Learning Management System (LMS) designed by Ms. Georgette Youssef for her secondary school English students. This platform enables interactive learning, assessments, progress tracking, and personalized education with over two decades of teaching expertise.
+A comprehensive Learning Management System (LMS) designed by Mrs. Georgette Youssef for her secondary school English students. This platform enables interactive learning, assessments, progress tracking, and personalized education with over two decades of teaching expertise.
 
-## 👩‍🏫 About Ms. Georgette Youssef
+## 👩‍🏫 About Mrs. Georgette Youssef
 
-**Ms. Georgette Youssef** is a distinguished English language teacher at **Saint Fatima Language School** with over **20 years of teaching experience**. Her dedication to student success and innovative teaching methods have helped hundreds of secondary school students achieve excellence in English.
+**Mrs. Georgette Youssef** is a distinguished Senior English language teacher at **Saint Fatima Language School** with over **20 years of teaching experience**. Her dedication to student success and innovative teaching methods have helped hundreds of secondary school students achieve excellence in English.
 
 ### Teaching Excellence
 - 🏫 **Saint Fatima Language School** - Committed educator
@@ -215,8 +215,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Created By
 
-**Ms. Georgette Youssef**  
-English Teacher | Saint Fatima Language School  
+**Mrs. Georgette Youssef**  
+Senior English Teacher | Saint Fatima Language School  
 20+ Years of Teaching Excellence
 
 Built with ❤️ for my students and the future of English education in Egypt
@@ -230,11 +230,11 @@ Built with ❤️ for my students and the future of English education in Egypt
 
 ## 📞 Contact
 
-**Ms. Georgette Youssef**  
+**Mrs. Georgette Youssef**  
 Saint Fatima Language School  
 For inquiries about the platform or enrollment, please contact through the school.
 
 ---
 
-**Made with 💙 by Ms. Georgette Youssef for Excellence in English Education** 🇪🇬
+**Made with 💙 by Mrs. Georgette Youssef for Excellence in English Education** 🇪🇬
 
