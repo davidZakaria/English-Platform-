@@ -6,11 +6,12 @@ A comprehensive Learning Management System (LMS) designed by Mrs. Georgette Yous
 
 ## 👩‍🏫 About Mrs. Georgette Youssef
 
-**Mrs. Georgette Youssef** is a distinguished **English Supervisor Teacher** at **Saint Fatima Language School** with **30 years of teaching experience**. Her dedication to student success and innovative teaching methods have helped over **3,200 secondary school students** achieve excellence in English.
+**Mrs. Georgette Youssef** is a distinguished **English Supervisor Teacher** at **Saint Fatima Language School** with **30 years of teaching experience**. Teaching **all three years of secondary school** (1st, 2nd, and 3rd year), her dedication to student success and innovative teaching methods have helped over **3,200 students** achieve excellence in English.
 
 ### Teaching Excellence
 - 🏫 **Saint Fatima Language School** - Committed educator
 - 📚 **30 Years Experience** - Three decades of teaching excellence
+- 🎓 **All Secondary Levels** - Teaching 1st, 2nd, and 3rd year students
 - 👥 **3,200+ Students Mentored** - Proven track record of success
 - 🎯 **Student-Centered** - Personalized attention for every student
 - 💡 **Innovative Methods** - Modern teaching approaches with technology

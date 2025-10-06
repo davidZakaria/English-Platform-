@@ -139,8 +139,8 @@ export default function LandingPage() {
 
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
                 {language === 'en' 
-                  ? 'Experience world-class English education from a distinguished teacher with 30 years of excellence at Saint Fatima Language School. Join over 3,200 successful students who transformed their English skills with proven methods.'
-                  : 'اختبر تعليم اللغة الإنجليزية عالمي المستوى من معلمة متميزة مع 30 عاماً من التميز في مدرسة سانت فاطيما للغات. انضم إلى أكثر من 3,200 طالب ناجح حولوا مهاراتهم في اللغة الإنجليزية بأساليب مثبتة.'
+                  ? 'Experience world-class English education from a distinguished teacher with 30 years of excellence at Saint Fatima Language School. Teaching all secondary levels (1st, 2nd, 3rd year), Mrs. Georgette has guided over 3,200 students to success.'
+                  : 'اختبر تعليم اللغة الإنجليزية عالمي المستوى من معلمة متميزة مع 30 عاماً من التميز في مدرسة سانت فاطيما للغات. تُدرّس جميع مستويات المرحلة الثانوية (الأول، الثاني، الثالث)، وقد أرشدت الأستاذة جورجيت أكثر من 3,200 طالب نحو النجاح.'
                 }
               </p>
 
@@ -223,8 +223,8 @@ export default function LandingPage() {
                   {[
                     { icon: FiAward, text: language === 'en' ? '30 Years Excellence' : '30 عاماً من التميز', color: 'text-yellow-500' },
                     { icon: FiUsers, text: language === 'en' ? '3,200+ Students Mentored' : '+3,200 طالب تم تدريبهم', color: 'text-blue-500' },
-                    { icon: FiTarget, text: language === 'en' ? 'English Supervisor' : 'مشرفة اللغة الإنجليزية', color: 'text-purple-500' },
-                    { icon: FiHeart, text: language === 'en' ? 'Passionate Educator' : 'معلمة شغوفة', color: 'text-pink-500' },
+                    { icon: FiTarget, text: language === 'en' ? 'All Secondary Levels (1st, 2nd, 3rd)' : 'جميع مستويات الثانوية (1، 2، 3)', color: 'text-purple-500' },
+                    { icon: FiHeart, text: language === 'en' ? 'English Supervisor' : 'مشرفة اللغة الإنجليزية', color: 'text-pink-500' },
                   ].map((item, index) => (
                     <motion.div
                       key={index}
@@ -288,18 +288,18 @@ export default function LandingPage() {
               },
               {
                 number: '02',
-                title: language === 'en' ? 'Personalized Approach' : 'نهج شخصي',
+                title: language === 'en' ? 'Complete Secondary Coverage' : 'تغطية كاملة للمرحلة الثانوية',
                 desc: language === 'en'
-                  ? 'Individual attention and customized learning plans designed to meet each student\'s unique needs and goals.'
-                  : 'اهتمام فردي وخطط تعليمية مخصصة مصممة لتلبية احتياجات وأهداف كل طالب الفريدة.',
+                  ? 'Teaching all three years of secondary school (1st, 2nd, 3rd year) with specialized curriculum for each level, ensuring comprehensive English mastery.'
+                  : 'تدريس جميع السنوات الثلاث للمرحلة الثانوية (الأول، الثاني، الثالث) مع منهج متخصص لكل مستوى، مما يضمن إتقاناً شاملاً للغة الإنجليزية.',
                 icon: FiTarget
               },
               {
                 number: '03',
-                title: language === 'en' ? 'Modern Methods' : 'أساليب حديثة',
+                title: language === 'en' ? 'Personalized & Modern' : 'شخصي وحديث',
                 desc: language === 'en'
-                  ? 'Combining traditional teaching excellence with cutting-edge technology for an engaging learning experience.'
-                  : 'الجمع بين التميز التعليمي التقليدي والتكنولوجيا المتطورة لتجربة تعليمية جذابة.',
+                  ? 'Combining personalized attention for each student with modern teaching methods and cutting-edge technology for maximum learning effectiveness.'
+                  : 'الجمع بين الاهتمام الشخصي لكل طالب مع أساليب التدريس الحديثة والتكنولوجيا المتطورة لتحقيق أقصى فعالية في التعلم.',
                 icon: FiZap
               }
             ].map((item, index) => (
@@ -523,8 +523,8 @@ export default function LandingPage() {
                 </h4>
                 <p className="text-gray-600">
                   {language === 'en' 
-                    ? 'Dedicated English teacher committed to excellence in education and student success.'
-                    : 'معلمة لغة إنجليزية متفانية ملتزمة بالتميز في التعليم ونجاح الطلاب.'
+                    ? 'Teaching all three years of secondary school (1st, 2nd, 3rd year) with comprehensive English education at every level.'
+                    : 'تدريس جميع سنوات المرحلة الثانوية الثلاث (الأول، الثاني، الثالث) مع تعليم شامل للغة الإنجليزية في كل مستوى.'
                   }
                 </p>
               </div>
@@ -641,8 +641,8 @@ export default function LandingPage() {
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
                 {language === 'en'
-                  ? 'With 30 years of teaching excellence at Saint Fatima Language School, providing world-class English education to over 3,200 secondary school students.'
-                  : 'مع 30 عاماً من التميز في التدريس في مدرسة سانت فاطيما للغات، نقدم تعليماً عالمي المستوى لأكثر من 3,200 طالب في المرحلة الثانوية.'
+                  ? 'With 30 years of teaching excellence at Saint Fatima Language School, teaching all three years of secondary school (1st, 2nd, 3rd) and guiding over 3,200 students to success.'
+                  : 'مع 30 عاماً من التميز في التدريس في مدرسة سانت فاطيما للغات، تدريس جميع سنوات المرحلة الثانوية الثلاث (الأول، الثاني، الثالث) وإرشاد أكثر من 3,200 طالب نحو النجاح.'
                 }
               </p>
               
@@ -703,12 +703,12 @@ export default function LandingPage() {
                   <span>{language === 'en' ? 'Saint Fatima Language School' : 'مدرسة سانت فاطيما للغات'}</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <FiAward className="w-5 h-5 mt-1 text-yellow-400" />
-                  <span>{language === 'en' ? '30 Years Experience' : '30 عاماً خبرة'}</span>
+                  <FiTarget className="w-5 h-5 mt-1 text-green-400" />
+                  <span>{language === 'en' ? 'All Secondary Levels (1st, 2nd, 3rd)' : 'جميع مستويات الثانوية (1، 2، 3)'}</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <FiUsers className="w-5 h-5 mt-1 text-blue-400" />
-                  <span>{language === 'en' ? '3,200+ Students Mentored' : '+3,200 طالب تم تدريبهم'}</span>
+                  <FiAward className="w-5 h-5 mt-1 text-yellow-400" />
+                  <span>{language === 'en' ? '30 Years | 3,200+ Students' : '30 عاماً | +3,200 طالب'}</span>
                 </li>
               </ul>
             </div>
